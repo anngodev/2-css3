@@ -2,22 +2,27 @@
 	color: blue;
 	background-color: #ef2b2d;
 	width: 200px;
-	position: relative;
-	left: 200px;
-	top: 100px;
-	z-index: 1;
+	margin: 100px;
+	
 }
 
 #second-section {
 	background-color: #0051BA;
 	width: 200px;
-	position: relative;
-	left: 200px;
-	bottom: 200px;
-	z-index: 2;
-	opacity: 0.5;
+	margin: 50px 20px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 15px;
+	padding-bottom: 20px;
 }
 
-.clear-float {
+body {
+	margin: 0;
+	padding: 0;
+}
 
+p {
+
+	margin: 0;
+	padding: 0;
 }
