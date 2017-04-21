@@ -1,16 +1,9 @@
-.large {
-	font-size: 200%;
+#first-section {
+	color: blue;
+	background-color: orange;
+	width: 50%
 }
 
-.red {
-	color: red;
-	font-size: 200%;
-}
-
-.underlined {
-	text-decoration: underline;
-}
-
-#green {
-	color: green;
+#second-section {
+	background-color: yellow;
 }
