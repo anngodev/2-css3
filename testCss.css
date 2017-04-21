@@ -2,15 +2,22 @@
 	color: blue;
 	background-color: #ef2b2d;
 	width: 200px;
-	float: left;
+	position: relative;
+	left: 200px;
+	top: 100px;
+	z-index: 1;
 }
 
 #second-section {
 	background-color: #0051BA;
 	width: 200px;
-	float: right;
+	position: relative;
+	left: 200px;
+	bottom: 200px;
+	z-index: 2;
+	opacity: 0.5;
 }
 
 .clear-float {
-	clear: both;
+
 }
