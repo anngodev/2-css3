@@ -1,8 +1,16 @@
-h1 {
-	color: pink;
+.large {
+	font-size: 200%;
 }
 
-p {
+.red {
 	color: red;
 	font-size: 200%;
+}
+
+.underlined {
+	text-decoration: underline;
+}
+
+#green {
+	color: green;
 }
