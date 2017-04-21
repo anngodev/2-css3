@@ -1,9 +1,16 @@
 #first-section {
 	color: blue;
-	background-color: orange;
-	width: 50%
+	background-color: #ef2b2d;
+	width: 200px;
+	float: left;
 }
 
 #second-section {
-	background-color: yellow;
+	background-color: #0051BA;
+	width: 200px;
+	float: right;
+}
+
+.clear-float {
+	clear: both;
 }
