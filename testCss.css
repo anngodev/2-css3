@@ -46,6 +46,7 @@
 
 .bold {
 	font-weight: bold;
+	text-align: center;
 }
 
 .italic {
@@ -58,6 +59,12 @@
 
 .big {
 	font-size: 200%;
+}
+
+.align {
+	width: 300px;
+	height: 100px;
+	background-color: yellow;
 }
 
 body {
