@@ -44,13 +44,37 @@
 	font-family: 'Rubik Mono One', sans-serif;
 }
 
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.underlined {
+	text-decoration: underline;
+}
+
+.big {
+	font-size: 200%;
+}
+
 body {
 	margin: 0;
 	padding: 0;
 }
 
 p {
-
 	margin: 0;
 	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: green;
 }
