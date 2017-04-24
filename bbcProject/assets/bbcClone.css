@@ -40,6 +40,23 @@
 	margin: 12px;
 }
 
+#searchbox {
+	background-color: #E4E4E4;
+	border: none;
+	font-weight: bold;
+	font-size: 80%;
+	padding: 5px;
+	margin: 8px -4.5px 8px 8px;
+
+}
+
+#magnifying-glass {
+	width: 30px;
+	height: 25px;
+	position: relative;
+	top: 8px;
+}
+
 .topBar-menu {
 	font-weight: bold;
 	font-size: 80%;
