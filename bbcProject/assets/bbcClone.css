@@ -110,12 +110,23 @@
 	color: #5a5a5a;
 	width: 250px;
 	font-size: 14px;
+	float: left;
 }
 
 #article-summary img {
 	height: 12px;
 	position: relative;
 	top: 1px;
+}
+
+#article-summary a {
+	text-decoration: none;
+	color: #a91717;
+
+}
+
+#article-summary a:hover {
+	color: #1167A8;
 }
 
 #time {
@@ -125,6 +136,15 @@
 #tech {
 	margin-left: 8px;
 
+}
+
+#article-container {
+	float: left;
+	width: 800px;
+}
+
+#main-article-image {
+	width: 400px;
 }
 .topBar-menu {
 	font-weight: bold;
