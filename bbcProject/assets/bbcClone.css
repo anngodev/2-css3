@@ -101,6 +101,31 @@
 	right: 12px;
 }
 
+#page-container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#article-summary {
+	color: #5a5a5a;
+	width: 250px;
+	font-size: 14px;
+}
+
+#article-summary img {
+	height: 12px;
+	position: relative;
+	top: 1px;
+}
+
+#time {
+	border-right: 1px solid #CCCCCC;
+}
+
+#tech {
+	margin-left: 8px;
+
+}
 .topBar-menu {
 	font-weight: bold;
 	font-size: 80%;
@@ -137,3 +162,23 @@ h1 {
 	font-weight: normal;
 	padding-top: 8px;
 }
+
+h2 {
+	font-weight: normal;
+	margin-top: 10px;
+	font-size: 22px;
+	color: #404040;
+	border-bottom: 3px solid #BB1919;
+	width: 110px;
+}
+
+h3 a {
+	color: black;
+	font-size: 32px;
+	text-decoration: none;
+}
+
+h3 a:hover {
+	color: #1167A8;
+}
+
