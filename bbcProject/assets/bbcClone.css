@@ -113,12 +113,6 @@
 	float: left;
 }
 
-#article-summary img {
-	height: 12px;
-	position: relative;
-	top: 1px;
-}
-
 #topic-link {
 	text-decoration: none;
 	color: #a91717;
@@ -127,10 +121,6 @@
 
 #article-summary a:hover {
 	color: #1167A8;
-}
-
-#time {
-	border-right: 1px solid #CCCCCC;
 }
 
 #tech {
@@ -154,7 +144,7 @@
 }
 
 #watch-listen {
-	margin-left: 20px;
+	margin-left: 10px;
 	width: 350px;
 }
 .topBar-menu {
@@ -199,6 +189,24 @@
 
 .watch-listen-link:hover {
 	color: #1167a8;
+}
+
+.clock {
+	height: 12px;
+	position: relative;
+	top: 1px;
+}
+
+.time {
+	border-right: 1px solid #CCCCCC;
+}
+
+.side-article {
+	float: right;
+	width: 200px;
+	position: relative;
+	top: -15px;
+	right: 20px;
 }
 
 body {
