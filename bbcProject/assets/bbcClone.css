@@ -130,7 +130,7 @@
 
 #article-container {
 	float: left;
-	width: 670px;
+	width: 665px;
 	border-right: 1px solid #CCCCCC;
 }
 
@@ -144,8 +144,9 @@
 }
 
 #watch-listen {
-	margin-left: 10px;
-	width: 350px;
+	margin-right: 20px;
+	width: 300px;
+	float: right;
 }
 .topBar-menu {
 	font-weight: bold;
@@ -176,15 +177,17 @@
 
 .watch-side-image {
 	float: left;
-	width: 120px;
+	width: 110px;
 	margin-right: 10px;
+	position: relative;
+	top: -17px;
 }
 
 .watch-listen-link {
 	font-weight: bold;
 	text-decoration: none;
 	color: black;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .watch-listen-link:hover {
@@ -198,15 +201,17 @@
 }
 
 .time {
+	color: #5a5a5a;
 	border-right: 1px solid #CCCCCC;
+	font-size: 12px;
 }
 
 .side-article {
 	float: right;
-	width: 200px;
+	width: 180px;
 	position: relative;
-	top: -15px;
-	right: 20px;
+	top: -30px;
+	
 }
 
 body {
